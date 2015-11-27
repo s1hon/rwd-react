@@ -1,0 +1,48 @@
+@custom-media --large-mobile (min-width: 480px);
+@custom-media --pad (min-width: 736px);
+@custom-media --large-pad (min-width: 820px);
+
+@import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic,600");
+
+
+/* reset */
+h2{
+  margin: 0;
+}
+/*p{
+  padding-bottom: 1.5em;
+}*/
+
+.footer{
+  lost-center: 1200px;
+  text-align: left;
+  background-image: url("images/overlay.png"), url("images/footer.svg");
+  background-size: 128px 128px,	100% 100%;
+  padding: 3em 20px 3em 20px;
+  font-family: 'Source Sans Pro', sans-serif;
+  lost-utility: clearfix;
+  @media (--large-mobile){
+    text-align: center;
+  }
+}
+
+
+.title{
+  font-size: responsive 24px 32px;
+  font-range: 480px 736px;
+  font-weight: 300;
+  line-height: 1.25em;
+  color: #52575c;
+}
+
+.content{
+  font-size: responsive 16px 24px;
+  font-range: 480px 900px;
+  font-weight: 300;
+  padding: 0.75em 0 1em 0;
+  line-height: 1.5em;
+  color: #f35858;
+  /* detailed*/
+  max-width: 900px;
+  margin: 0 auto;
+}

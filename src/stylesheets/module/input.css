@@ -1,0 +1,11 @@
+@import "extend";
+
+/* special style */
+.classic {
+  @extend basic;
+  border: solid 1px #c2c7cc;
+  border-radius: 0.35em;
+  padding: 0.75em;
+  cursor: pointer;
+  outline: 0;
+}
