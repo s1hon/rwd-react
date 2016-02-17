@@ -6,7 +6,7 @@ var webpack = require('webpack'),
 var precss = require('precss'),
   lost = require('lost'),
   autoprefixer = require('autoprefixer'),
-  cssnext = require('cssnext'),
+  cssnext = require('postcss-cssnext'),
   rucksack = require('rucksack-css');
 
 module.exports = {
