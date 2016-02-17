@@ -24,10 +24,9 @@ Since webpack uses loaders to pack modules. We need to intall [postcss-loader](h
 * [`lost`] feature-rich `calc()` grid system by Jeet author.
 * [`autoprefixer`] adds vendor prefixes for you, using data from Can I Use.
 * [`cssnext`] contains plugins that allow you to use future CSS features today.
-
 * [`precss`] contains plugins that allow you to use Sass-like CSS.
 
-[`cssnext`]:   http://cssnext.io/
-[`lost`]:     https://github.com/corysimmons/lost
-[`precss`]:    https://github.com/jonathantneal/precss
-[`autoprefixer`]:                    https://github.com/postcss/autoprefixer
+[`cssnext`]:http://cssnext.io/
+[`lost`]:https://github.com/corysimmons/lost
+[`precss`]:https://github.com/jonathantneal/precss
+[`autoprefixer`]:https://github.com/postcss/autoprefixer
