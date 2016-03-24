@@ -5,7 +5,6 @@ var webpack = require('webpack'),
 
 var precss = require('precss'),
   lost = require('lost'),
-  autoprefixer = require('autoprefixer'),
   cssnext = require('postcss-cssnext'),
   rucksack = require('rucksack-css');
 
@@ -34,13 +33,13 @@ module.exports = {
       loader: ExtractTextPlugin.extract('style-loader', 'css-loader?modules&importLoaders=1&localIdentName=[name]_[local]_[hash:base64:4]!postcss-loader')
     }, {
       test: /\.png$/,
-      loader: 'file-loader'
+      loader: 'url-loader'
     }, {
       test: /\.svg$/,
-      loader: 'file-loader'
+      loader: 'url-loader'
     }]
   },
-  postcss: [precss, cssnext, lost, autoprefixer, rucksack],
+  postcss: [precss, cssnext, lost, rucksack],
   // Use the plugin to specify the resulting filename (and add needed behavior to the compiler)
   plugins: [
     new ExtractTextPlugin("bundle.css", {
