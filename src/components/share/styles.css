@@ -35,54 +35,49 @@
     border-radius: 0.35em;
     text-align: center;
     margin-right: 0.75em;
-
-    /* font */
-    font-family: FontAwesome;
     font-size: 1.25rem;
     line-height: 2;
-
-
   }
 }
 
-.tw{
+.twitter{
   composes: icon;
-  &:before{
-    content: "\f099";
+  &:before {
+    font-awesome: twitter;
   }
 }
 
-.fa{
+.facebook{
   composes: icon;
   &:before{
-    content: "\f09a";
+    font-awesome: facebook;
   }
 }
 
-.dr{
+.dribbble{
   composes: icon;
   &:before{
-    content: "\f17d";
+    font-awesome: dribbble;
   }
 }
 
-.in{
+.instagram{
   composes: icon;
   &:before{
-    content: "\f16d";
+    font-awesome: instagram;
   }
 }
 
-.yo{
+.youtube{
   composes: icon;
   &:before{
-    content: "\f167";
+    font-awesome: youtube;
   }
 }
 
-.pi{
+.pinterest{
   composes: icon;
   &:before{
-    content: "\f0d2";
+    font-awesome: pinterest;
   }
 }

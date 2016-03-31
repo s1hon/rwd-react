@@ -1,10 +1,10 @@
 /*custom properties*/
 :root{
-  --inputClassic: classic from "stylesheets/module/input.css";
-  --btnClassic: classic from "stylesheets/module/btn.css";
-  --btnFlat: flat from "stylesheets/module/btn.css";
-  --bounce: animated bounce from "stylesheets/module/animate.css";
-  --swing: animated swing from "stylesheets/module/animate.css";
+  --inputClassic: classic from "shared/stylesheets/module/input.css";
+  --btnClassic: classic from "shared/stylesheets/module/btn.css";
+  --btnFlat: flat from "shared/stylesheets/module/btn.css";
+  --bounce: animated bounce from "shared/stylesheets/module/animate.css";
+  --swing: animated swing from "shared/stylesheets/module/animate.css";
 }
 
 /*custom media queries*/

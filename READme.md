@@ -35,3 +35,4 @@ Since webpack uses loaders to pack modules. We need to intall [postcss-loader](h
 [`postcss-cssnext`]:http://cssnext.io/
 [`lost`]:https://github.com/corysimmons/lost
 [`precss`]:https://github.com/jonathantneal/precss
+[`postcss-font-awesome`]:https://github.com/dan-gamble/postcss-font-awesome

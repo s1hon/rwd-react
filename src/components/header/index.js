@@ -1,13 +1,20 @@
-import React , { Component } from 'react';
-import Navbar from '../../components/navbar';
+import React , { Component } from 'react'
+import CSSModules from 'react-css-modules'
+import styles from './styles.css'
 
-export default class Footer extends Component {
-  constructor(){
-    super()
-  }
+class Header extends Component{
   render(){
     return(
-      <Navbar />
-    );
+      <ul styleName="nav" >
+        {
+          ['Home' , 'About' , 'Products' , 'Contact']
+          .map((element , id)=>{
+            return <li key={id} ><a styleName="item">{element}</a></li>
+          })
+        }
+      </ul>
+    )
   }
 }
+
+export default CSSModules(Header , styles)
