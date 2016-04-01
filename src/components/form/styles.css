@@ -3,8 +3,8 @@
   --inputClassic: classic from "shared/stylesheets/module/input.css";
   --btnClassic: classic from "shared/stylesheets/module/btn.css";
   --btnFlat: flat from "shared/stylesheets/module/btn.css";
-  --bounce: animated bounce from "shared/stylesheets/module/animate.css";
-  --swing: animated swing from "shared/stylesheets/module/animate.css";
+  --bounce: animated bounce from "animate.css/animate.css";
+  --swing: animated swing from "animate.css/animate.css";
 }
 
 /*custom media queries*/

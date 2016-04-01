@@ -13,7 +13,7 @@ module.exports = {
   // The standard entry point and output config
   entry: [
     'webpack-hot-middleware/client',
-    './src/app.js',
+    './src/client.js',
   ],
   output: {
     filename: "bundle.js",
@@ -31,7 +31,7 @@ module.exports = {
       loader: 'babel'
     }, {
       test: /\.css$/,
-      loader: ExtractTextPlugin.extract('style-loader', 'css-loader?modules&importLoaders=1&localIdentName=[local][hash:base64:5]!postcss-loader')
+      loader: ExtractTextPlugin.extract('style-loader', 'css-loader?modules&importLoaders=1&localIdentName=[local].[hash:base64:5]!postcss-loader')
     }, {
       test: /\.(jpg|png|svg)$/,
       loader: 'url'

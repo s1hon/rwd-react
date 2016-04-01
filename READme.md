@@ -30,7 +30,8 @@ Since webpack uses loaders to pack modules. We need to intall [postcss-loader](h
 #### PostCSS Plugins
 * [`lost`]: A powerful grid system built in PostCSS
 * [`postcss-cssnext`]: Contain plugins that allowed you to use future CSS features today and [autoprefixer](https://github.com/postcss/autoprefixer) dependency now.
-* [`precss`] contains plugins that allow you to use Sass-like CSS.
+* [`precss`]: Contains plugins that allow you to use Sass-like CSS.
+* [`postcss-font-awesome`]:
 
 [`postcss-cssnext`]:http://cssnext.io/
 [`lost`]:https://github.com/corysimmons/lost

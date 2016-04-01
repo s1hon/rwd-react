@@ -9,7 +9,7 @@ const Share = () => (
       .map((element , index)=>{
         return (
           <div key={index}>
-            <a styleName={element} >{element}</a>
+            <a styleName={element}>{element}</a>
           </div>)
       })
     }

@@ -28,8 +28,9 @@
   "dependencies": {
     "express": "^4.13.3",
     "font-awesome": "^4.5.0",
-    "lodash": "^4.4.0",
     "lost": "^6.7.1",
+    "animate.css": "^3.5.1",
+    "normalize.css": "^4.0.0",
     "postcss-cssnext": "^2.4.0",
     "precss": "^1.4.0",
     "react": "^0.14.8",
