@@ -1,13 +1,6 @@
 @custom-media --pad (min-width: 736px);
 @custom-media --desktop (min-width: 1024px);
 
-/* reset */
-ul , li {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
 /* style*/
 .item{
   display: block;

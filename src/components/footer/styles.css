@@ -1,16 +1,6 @@
 @custom-media --large-mobile (min-width: 480px);
 @custom-media --pad (min-width: 736px);
 @custom-media --large-pad (min-width: 820px);
-@import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic,600");
-
-/* reset */
-h2 {
-  margin: 0;
-}
-
-/*p{
-  padding-bottom: 1.5em;
-}*/
 
 .footer{
   lost-center: 1200px;
@@ -24,7 +14,6 @@ h2 {
     text-align: center;
   }
 }
-
 
 .title{
   font-size: responsive 24px 32px;

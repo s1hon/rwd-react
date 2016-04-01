@@ -3,7 +3,7 @@
 /* special style */
 .classic{
   @extend basic;
-  background: #f9fbfe;
+  background: none;
   border: solid 1px #d2d7dc;
   border-radius: 0.35em;
   padding: 0.75em;
