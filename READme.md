@@ -2,11 +2,19 @@
 
 Build your maintainable responsive web design rapidly with practical css processors and [webpack](https://github.com/webpack/webpack). The project referred to [html5up webbsite](http://html5up.net/telephasic). I restructured its *footer section* code with ReactJS and PostCSS.
 
-### Instruction
+### Concept of CSS Module
+* Eliminate global css
+* Use **composes** instead of multi class
+
+### Locally build instruction
 1. clone the repo : `git clone https://github.com/chungchiehlun/rwd-react.git`
 2. npm install : `cd rwd-react && npm install`
 3. run it locally : `npm start`
 4. Open your browser and go to *localhost:1314*
+
+### Launch a static server
+* `npm run build`
+* `npm run prod`
 
 ### Composition
 #### React

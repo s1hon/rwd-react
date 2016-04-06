@@ -1,7 +1,8 @@
 var path = require('path');
 
 var webpack = require('webpack'),
-  ExtractTextPlugin = require("extract-text-webpack-plugin");
+  ExtractTextPlugin = require('extract-text-webpack-plugin'),
+  HtmlWebpackPlugin = require('html-webpack-plugin');
 
 var precss = require('precss'),
   lost = require('lost'),
@@ -12,13 +13,12 @@ var precss = require('precss'),
 module.exports = {
   // The standard entry point and output config
   entry: [
-    'webpack-hot-middleware/client',
     './src/client.js',
   ],
   output: {
     filename: "bundle.js",
     path: path.join(__dirname, 'dist'),
-    publicPath: '/'
+    publicPath: './'
   },
   resolve: {
     modulesDirectories: ['node_modules', 'src'],
@@ -60,6 +60,10 @@ module.exports = {
   plugins: [
     new ExtractTextPlugin("bundle.css", {
       allChunks: true
+    }),
+    new HtmlWebpackPlugin({
+      template: __dirname + '/template.html',
+      favicon: __dirname + '/favicon.ico'
     }),
     // OccurenceOrderPlugin : optimizes chunks and modules by how much they are used in your app;
     new webpack.optimize.OccurenceOrderPlugin(),
