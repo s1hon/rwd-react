@@ -6,11 +6,10 @@ var config = require('./webpack.config')
 var express = require('express')
 var app = new express()
 var port = 1314
-
 var compiler = webpack(config)
+
 app.use(webpackDevMiddleware(compiler, { noInfo: true, publicPath: config.output.publicPath }))
 app.use(webpackHotMiddleware(compiler))
-app.use(express.static(__dirname + '/public'))
 app.get("/", function(req, res) {
   res.sendFile(__dirname + '/index.html')
 })

@@ -1,9 +1,9 @@
-import React , { Component } from 'react';
-import CSSModules from 'react-css-modules';
-import styles from './styles.css';
+import React from 'react'
+import cssmodules from 'react-css-modules'
+import styles from './styles.css'
 
 const Form = () => {
-  return(
+  return (
     <form styleName="form" method="post" action="#">
       <input styleName="name" name="name" placeholder="Name" type="text" />
       <input styleName="email" name="email" placeholder="Email" type="text" />
@@ -14,4 +14,4 @@ const Form = () => {
   )
 }
 
-export default CSSModules(Form, styles);
+export default cssmodules(Form, styles)

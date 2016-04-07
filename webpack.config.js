@@ -18,7 +18,7 @@ module.exports = {
   output: {
     filename: "bundle.js",
     path: path.join(__dirname, 'dist'),
-    publicPath: '/'
+    publicPath: '/.tmp/'
   },
   resolve: {
     modulesDirectories: ['node_modules', 'src'],
@@ -63,6 +63,7 @@ module.exports = {
     }),
     // OccurenceOrderPlugin : optimizes chunks and modules by how much they are used in your app;
     new webpack.optimize.OccurenceOrderPlugin(),
+    new webpack.HotModuleReplacementPlugin(),
     new webpack.NoErrorsPlugin()
   ]
 }

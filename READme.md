@@ -4,7 +4,7 @@ Build your maintainable responsive web design rapidly with practical css process
 
 ### Concept of CSS Module
 * Eliminate global css
-* Use **composes** instead of multi class
+* Use **composes** instead of multiple class name
 
 ### Locally build instruction
 1. clone the repo : `git clone https://github.com/chungchiehlun/rwd-react.git`
