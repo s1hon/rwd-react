@@ -6,13 +6,12 @@ Build your maintainable responsive web design rapidly with practical css process
 * Eliminate global css
 * Use **composes** instead of multiple class name
 
-### Locally build instruction
-1. clone the repo : `git clone https://github.com/chungchiehlun/rwd-react.git`
-2. npm install : `cd rwd-react && npm install`
-3. run it locally : `npm start`
-4. Open your browser and go to *localhost:1314*
 
-### Launch a static server
+### Launch Environment
+#### Development: run app in webpack hot load mode
+* `npm run dev`
+
+#### Production: run app in a static server
 * `npm run build`
 * `npm run prod`
 
@@ -39,7 +38,7 @@ Since webpack uses loaders to pack modules. We need to intall [postcss-loader](h
 * [`lost`]: A powerful grid system built in PostCSS
 * [`postcss-cssnext`]: Contain plugins that allowed you to use future CSS features today and [autoprefixer](https://github.com/postcss/autoprefixer) dependency now.
 * [`precss`]: Contains plugins that allow you to use Sass-like CSS.
-* [`postcss-font-awesome`]:
+* [`postcss-font-awesome`]: Font Awesome postcss plugin
 
 [`postcss-cssnext`]:http://cssnext.io/
 [`lost`]:https://github.com/corysimmons/lost
