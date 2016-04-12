@@ -4,11 +4,11 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "clean": "rimraf production/*",
-    "build": "npm run clean && cross-env NODE_ENV=production webpack --config webpack.config.prod.js",
+    "clean": "rimraf production/dist/*",
+    "build": "npm run clean && cross-env NODE_ENV=production webpack --config production/webpack.config.prod.js",
     "dev": "node development/server.js",
     "lint": "eslint src --ignore-pattern *.spec.js",
-    "prod": "http-server ./production"
+    "prod": "http-server -osp 1315 ./production/dist"
   },
   "author": "",
   "license": "ISC",
@@ -48,7 +48,9 @@
     "react": "^15.0.1",
     "react-css-modules": "^3.6.1",
     "react-dom": "^15.0.1",
-    "rucksack-css": "^0.8.5"
+    "rucksack-css": "^0.8.5",
+    "serve-favicon": "^2.3.0",
+    "serve-static": "^1.10.2"
   },
   "babel": {
     "presets": [
