@@ -1,8 +1,8 @@
 /*custom properties*/
 :root{
-  --inputClassic: classic from "shared/stylesheets/input.css";
-  --btnClassic: classic from "shared/stylesheets/btn.css";
-  --btnFlat: flat from "shared/stylesheets/btn.css";
+  --inputClassic: classic from "shared/input.css";
+  --btnClassic: classic from "shared/btn.css";
+  --btnFlat: flat from "shared/btn.css";
   --bounce: animated bounce from "animate.css/animate.css";
   --swing: animated swing from "animate.css/animate.css";
 }
